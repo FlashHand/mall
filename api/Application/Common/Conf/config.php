@@ -1,5 +1,5 @@
 <?php
-define('__SERVER__', 'http://test.shopsn.net');
+define('__SERVER__', 'http://test.terncloud.com');
 set_time_limit(0);
 return array(
 	//'配置项' => '配置值'
@@ -13,7 +13,7 @@ return array(
     // 系统默认的变量过滤机制
     //'DEFAULT_FILTER'        => 'strip_sql,htmlspecialchars',
     //图片域名地址
-    'img_url'            => 'http://test.shopsn.net',
+    'img_url'            => 'http://test.terncloud.com',
     // 上传头像等图片设置图片大小
     'img_size'           => 3145728,
     'img_type'           => array('jpg', 'gif', 'png', 'jpeg'),

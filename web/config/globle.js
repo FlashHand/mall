@@ -1,5 +1,5 @@
 // window.API_URL='http://local.api.shopsn.net/';
-window.API_URL='http://test.terncloud.com/';
+window.API_URL='http://api.terncloud.com/';
 
 (function (w){
 

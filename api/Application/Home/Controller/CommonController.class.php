@@ -23,7 +23,7 @@ class CommonController extends Controller
         $mobiles  = $tel;                //目标手机号码，多个用半角“,”分隔
         $extno    = "";
         $verify   = rand( 1111,9999 );
-        $content  = "【shopSN开源电商】您的验证码:" . $verify;
+        $content  = "【滴水湖都市农业园】您的验证码:" . $verify;
         $sendtime = "";
         $url      = "https://dx.ipyy.net/sms.aspx";
         $body     = array(
@@ -328,7 +328,7 @@ class CommonController extends Controller
 //        $ch = curl_init();
 //        //加@符号curl就会把它当成是文件上传处
 //        $data = array('img'=>new \CURLFile($file),'user_id'=>$user_id );
-//        curl_setopt($ch,CURLOPT_URL,"http://test.shopsn.net/index.php/Home/AppUpload/headerUpload");
+//        curl_setopt($ch,CURLOPT_URL,"http://test.terncloud.com/index.php/Home/AppUpload/headerUpload");
 //        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 //        curl_setopt($ch, CURLOPT_POST, true);
 //        curl_setopt($ch, CURLOPT_SAFE_UPLOAD, false);
@@ -353,7 +353,7 @@ class CommonController extends Controller
         }
         $ch = curl_init();
         //加@符号curl就会把它当成是文件上传处
-        curl_setopt( $ch,CURLOPT_URL,"http://test.shopsn.net/index.php/Home/AppUpload/headerUpload" );
+        curl_setopt( $ch,CURLOPT_URL,"http://test.terncloud.com/index.php/Home/AppUpload/headerUpload" );
         curl_setopt( $ch,CURLOPT_RETURNTRANSFER,true );
         curl_setopt( $ch,CURLOPT_POST,true );
         curl_setopt( $ch,CURLOPT_SAFE_UPLOAD,false );
@@ -382,7 +382,7 @@ class CommonController extends Controller
         }
         $ch = curl_init();
         //加@符号curl就会把它当成是文件上传处
-        curl_setopt( $ch,CURLOPT_URL,"http://test.shopsn.net/index.php/Home/AppUpload/commentUpload" );
+        curl_setopt( $ch,CURLOPT_URL,"http://test.terncloud.com/index.php/Home/AppUpload/commentUpload" );
         curl_setopt( $ch,CURLOPT_RETURNTRANSFER,true );
         curl_setopt( $ch,CURLOPT_POST,true );
         curl_setopt( $ch,CURLOPT_SAFE_UPLOAD,false );

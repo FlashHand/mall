@@ -7,7 +7,10 @@ use Think\Controller;
 
 class IndexController extends CommonController
 {
-
+public function index(){
+      $this->assign('ROOT',$this->ROOT);
+      $this->display();
+    }
 
     //public function __construct()
     //{

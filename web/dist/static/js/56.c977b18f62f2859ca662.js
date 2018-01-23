@@ -1,0 +1,2 @@
+webpackJsonp([56],{55:function(e,t,s){var u=s(20)(s(674),null,null,null);e.exports=u.exports},674:function(e,t,s){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var u=getInfo.split_url("?"),u=getInfo.split_url("=");t.default={created:function(){u&&(sessionStorage.setItem("user_ID",u),this.$router.push({path:"/home"}))}}}});
+//# sourceMappingURL=56.c977b18f62f2859ca662.js.map
